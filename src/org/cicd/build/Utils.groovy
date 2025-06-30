@@ -7,7 +7,7 @@ class Utils implements Serializable
 
   void say()
   {
-    echo path
-    echo path2
+    println "${path}"
+    println "${path2}"
   }
 }
