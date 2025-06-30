@@ -5,7 +5,7 @@ class Utils implements Serializable
   String path
   String path2
 
-  static void say()
+  void say()
   {
     echo path
     echo path2
